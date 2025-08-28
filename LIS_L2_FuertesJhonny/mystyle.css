@@ -1,0 +1,107 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: #87CEEB; /* lightblue en hexadecimal */
+    font-family: 'Arial', sans-serif;
+  }
+  
+/* Estilos para alineación de texto */
+.center {
+    text-align: center;
+    color: #000000; /* negro en hexadecimal */
+  }
+
+.right {
+    text-align: right;
+    color: #0000FF; /* azul en hexadecimal */
+  }
+
+.left {
+    text-align: left;
+    color: #008000; /* verde en hexadecimal */
+  }
+
+/* Estilos para títulos */
+.titulo {
+    color: #EE42B5; /* rgb(238, 66, 181) en hexadecimal */
+    text-align: center;
+  }
+
+/* Contenedores de grid para layouts */
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+  }
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+  }
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+  }
+
+/* Estilos para los lenguajes de programación */
+#lenguaje_GO {
+    background-color: #F08080; /* lightcoral en hexadecimal */
+    padding: 20px;
+    border: 2px solid #000000; /* negro en hexadecimal */
+    border-radius: 5px;
+  }
+#lenguaje_JAVA {
+    background-color: #ADD8E6; /* lightblue en hexadecimal */
+    padding: 20px;
+    border: 2px solid #000000; /* negro en hexadecimal */
+    border-radius: 5px;
+  }
+#lenguaje_Cplusplus {
+    background-color: #FFB6C1; /* lightpink en hexadecimal */
+    padding: 20px;
+    border: 2px solid #000000; /* negro en hexadecimal */
+    border-radius: 5px;
+  }
+#lenguaje_JAVA_SCRIPT {
+    background-color: #D3D3D3; /* lightgray en hexadecimal */
+    padding: 20px;
+    border: 2px solid #000000; /* negro en hexadecimal */
+    border-radius: 5px;
+  }
+#lenguaje_SWIFT {
+    background-color: #FFFFE0; /* lightyellow en hexadecimal */
+    padding: 20px;
+    border: 2px solid #000000; /* negro en hexadecimal */
+    border-radius: 5px;
+  }
+#lenguaje_TYPESCRIPT {
+    background-color: #90EE90; /* lightgreen en hexadecimal */
+    padding: 20px;
+    border: 2px solid #000000; /* negro en hexadecimal */
+    border-radius: 5px;
+  }
+
+/* Selectores de agrupación para elementos comunes */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+p, span, div {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #0066CC; /* azul para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF6600; /* naranja al pasar el mouse */
+    text-decoration: underline;
+}
+  
+
+  
