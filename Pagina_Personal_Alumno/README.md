@@ -67,30 +67,30 @@ Pagina_Personal_Alumno/
         └── media/                     # Videos/audios
 ```
 
-## 🎯 Características Principales
+## Características Principales
 
 ### Funcionalidades JavaScript
-- ✅ **Validación de formulario**: Validación en tiempo real y al enviar
-- ✅ **Carrusel de imágenes**: Implementación nativa (versión sin framework)
-- ✅ **Sistema de contacto**: Persistencia con Repository y Facade patterns
-- ✅ **Navegación suave**: Scroll automático entre secciones
-- ✅ **Animaciones**: Efectos visuales al hacer scroll
-- ✅ **Notificaciones**: Mensajes de éxito/error con Toastify
+-  **Validación de formulario**: Validación en tiempo real y al enviar
+-  **Carrusel de imágenes**: Implementación nativa (versión sin framework)
+-  **Sistema de contacto**: Persistencia con Repository y Facade patterns
+-  **Navegación suave**: Scroll automático entre secciones
+-  **Animaciones**: Efectos visuales al hacer scroll
+-  **Notificaciones**: Mensajes de éxito/error con Toastify
 
 ### Sistema de Contacto
-- ✅ **Repository Pattern**: Gestión de datos en localStorage
-- ✅ **Facade Pattern**: API simplificada para operaciones CRUD
-- ✅ **Validaciones**: Validación completa de datos del formulario
-- ✅ **Persistencia**: Almacenamiento local de contactos
-- ✅ **Operaciones**: Crear, leer, actualizar, eliminar contactos
+-  **Repository Pattern**: Gestión de datos en localStorage
+-  **Facade Pattern**: API simplificada para operaciones CRUD
+-  **Validaciones**: Validación completa de datos del formulario
+-  **Persistencia**: Almacenamiento local de contactos
+-  **Operaciones**: Crear, leer, actualizar, eliminar contactos
 
 ### Diseño Responsive
-- ✅ **Versión Bootstrap**: Completamente responsive con grid system
-- ✅ **Versión Nativa**: Optimizada para desktop (según requisitos)
-- ✅ **Componentes**: Cards, tablas, formularios adaptativos
-- ✅ **Navegación**: Menú responsive con hamburguesa
+-  **Versión Bootstrap**: Completamente responsive con grid system
+-  **Versión Nativa**: Optimizada para desktop (según requisitos)
+-  **Componentes**: Cards, tablas, formularios adaptativos
+-  **Navegación**: Menú responsive con hamburguesa
 
-## 🛠️ Instrucciones de Uso
+##  Instrucciones de Uso
 
 ### Cómo Abrir el Proyecto
 
@@ -125,7 +125,7 @@ El formulario incluye:
 - **Persistencia**: Los contactos se guardan en localStorage
 - **Gestión**: Ver, eliminar contactos individuales o todos
 
-## 🎨 Características de Diseño
+##  Características de Diseño
 
 ### Versión Sin Framework
 - **Colores**: Gradientes azul-púrpura para header y elementos principales
@@ -141,7 +141,7 @@ El formulario incluye:
 - **Responsive**: Adaptable a todos los dispositivos
 - **Personalización**: Estilos adicionales en `custom.css`
 
-## 🔧 Patrones de Diseño Implementados
+## Patrones de Diseño Implementados
 
 ### Repository Pattern
 - **ContactRepository**: Maneja operaciones CRUD en localStorage
@@ -155,21 +155,21 @@ El formulario incluye:
 - **Abstracción**: Oculta la complejidad del repository
 - **Facilidad de uso**: Interfaz simple para la UI
 
-## 📱 Compatibilidad
+## Compatibilidad
 
 ### Navegadores Soportados
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Edge 90+
-- ✅ Safari 14+
+-  Chrome 90+
+-  Firefox 88+
+-  Edge 90+
+-  Safari 14+
 
 ### Características Requeridas
-- ✅ JavaScript habilitado
-- ✅ localStorage disponible
-- ✅ CSS Grid y Flexbox
-- ✅ ES6+ (Arrow functions, classes, modules)
+-  JavaScript habilitado
+-  localStorage disponible
+-  CSS Grid y Flexbox
+-  ES6+ (Arrow functions, classes, modules)
 
-## 🚀 Funcionalidades Avanzadas
+##  Funcionalidades Avanzadas
 
 ### Sistema de Notificaciones
 - **Toastify.js**: Notificaciones elegantes
@@ -187,7 +187,7 @@ El formulario incluye:
 - **Sincronización**: Actualización automática de la UI
 - **Backup**: Exportación de contactos a JSON
 
-## 📝 Notas de Desarrollo
+## Notas de Desarrollo
 
 ### Consideraciones Técnicas
 - **Sin Framework**: No requiere dependencias externas
@@ -196,25 +196,26 @@ El formulario incluye:
 - **SEO**: Estructura semántica HTML5
 
 ### Mejoras Futuras
-- 🔄 Implementación de IndexedDB para mayor capacidad
-- 🔄 Sistema de autenticación
-- 🔄 Integración con APIs externas
-- 🔄 Modo oscuro/claro
-- 🔄 PWA (Progressive Web App)
+-  Implementación de IndexedDB para mayor capacidad
+-  Sistema de autenticación
+-  Integración con APIs externas
+-  Modo oscuro/claro
+-  PWA (Progressive Web App)
 
-## 👨‍💻 Autor
+##  Autor
 
 **Nombre**: Jhonny Richard Fuertes Patiño  
 **Universidad**: Universidad del Cauca  
 **Programa**: Ingeniería de Sistemas  
 **Año**: 2024
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es parte de un trabajo académico y está destinado únicamente para fines educativos.
 
 ---
 
 **Desarrollado con ❤️ usando HTML, CSS y JavaScript**
+
 
 
