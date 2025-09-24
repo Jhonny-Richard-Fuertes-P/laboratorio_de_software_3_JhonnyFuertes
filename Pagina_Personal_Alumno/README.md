@@ -1,4 +1,4 @@
-# Página Personal - [Tu Nombre]
+# Página Personal - Jhonny Richard Fuertes Patiño
 
 Este proyecto contiene una página web personal desarrollada en dos versiones: una versión nativa (sin framework) y otra versión con framework (Bootstrap), cumpliendo con los requisitos del proyecto académico.
 
@@ -216,3 +216,4 @@ Este proyecto es parte de un trabajo académico y está destinado únicamente pa
 ---
 
 **Desarrollado con ❤️ usando HTML, CSS y JavaScript**
+
