@@ -2,7 +2,7 @@
 
 Este proyecto contiene una página web personal desarrollada en dos versiones: una versión nativa (sin framework) y otra versión con framework (Bootstrap), cumpliendo con los requisitos del proyecto académico.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 La página personal incluye las siguientes secciones obligatorias:
 - **Inicio**: Información personal, foto y expectativas profesionales
@@ -11,7 +11,7 @@ La página personal incluye las siguientes secciones obligatorias:
 - **Proyectos**: Lista de proyectos realizados con tecnologías utilizadas
 - **Contacto**: Formulario completo con validaciones y sistema de persistencia
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 ### Versión Sin Framework (Nativa)
 - **HTML5**: Estructura semántica
@@ -26,7 +26,7 @@ La página personal incluye las siguientes secciones obligatorias:
 - **JavaScript ES6+**: Funcionalidad interactiva y validaciones
 - **localStorage**: Persistencia de datos del formulario de contacto
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 Pagina_Personal_Alumno/
@@ -216,6 +216,7 @@ Este proyecto es parte de un trabajo académico y está destinado únicamente pa
 ---
 
 **Desarrollado con ❤️ usando HTML, CSS y JavaScript**
+
 
 
 
