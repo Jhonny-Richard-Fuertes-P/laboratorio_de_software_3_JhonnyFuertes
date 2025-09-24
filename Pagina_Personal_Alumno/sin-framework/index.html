@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Personal - [Tu Nombre]</title>
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Toastify para notificaciones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <!-- Header con información personal -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="profile-image">
+          <img src="assets/images/foto-personal.jpg" alt="Foto Personal" class="profile-photo">
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">Jhonny Richard Fuertes Patiño</h1>
+          <h2 class="profile-title">Estudiante de Ingeniería de Sistemas</h2>
+          <p class="profile-description">
+            Mi expectativa como profesional es contribuir al desarrollo de soluciones tecnológicas innovadoras 
+            que impacten positivamente en la sociedad, aplicando mis conocimientos en desarrollo de software, 
+            inteligencia artificial y gestión de proyectos para crear sistemas eficientes y escalables.
+          </p>
+          <div class="social-links">
+            <a href="#" target="_blank" title="LinkedIn" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" target="_blank" title="GitHub" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" title="Email" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegación -->
+  <nav class="navigation">
+    <div class="container">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#inicio" class="nav-link active">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#estudios" class="nav-link">Estudios</a>
+        </li>
+        <li class="nav-item">
+          <a href="#pasatiempos" class="nav-link">Pasatiempos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#proyectos" class="nav-link">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contacto" class="nav-link">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="section">
+    <div class="container">
+      <h2 class="section-title">Bienvenido a mi Página Personal</h2>
+      
+      <!-- Carrusel de Imágenes -->
+      <div class="carrusel-container">
+        <div class="carrusel" id="carruselPersonal">
+          <div class="carrusel-item active">
+            <img src="assets/images/carrusel/silkSong.jpg" alt="Silk Song">
+            <div class="carrusel-caption">
+              <h3>Hollow Knight: Silk Song</h3>
+              <p>Uno de mis videojuegos favoritos que me inspira en el diseño de interfaces.</p>
+            </div>
+          </div>
+          <div class="carrusel-item">
+            <img src="assets/images/carrusel/borderlands-4.jpg" alt="Borderlands 4">
+            <div class="carrusel-caption">
+              <h3>Borderlands 4</h3>
+              <p>Me gusta la estética y el diseño de personajes de esta saga.</p>
+            </div>
+          </div>
+          <div class="carrusel-item">
+            <img src="assets/images/carrusel/doomDarkA.jpg" alt="Doom Dark Age">
+            <div class="carrusel-caption">
+              <h3>Doom: The Dark Age</h3>
+              <p>Un juego que me motiva por su programación y optimización técnica.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carrusel-btn anterior" onclick="cambiarImagen(-1)">❮</button>
+        <button class="carrusel-btn siguiente" onclick="cambiarImagen(1)">❯</button>
+        <div class="carrusel-indicadores">
+          <span class="indicador active" onclick="mostrarImagen(0)"></span>
+          <span class="indicador" onclick="mostrarImagen(1)"></span>
+          <span class="indicador" onclick="mostrarImagen(2)"></span>
+        </div>
+      </div>
+      
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Información Personal</h3>
+          <ul class="info-list">
+            <li><strong>Nombre:</strong> Jhonny Richard Fuertes Patiño</li>
+            <li><strong>Fecha de Nacimiento:</strong> 09/05/1999</li>
+            <li><strong>Profesión:</strong> Estudiante de Ingeniería de Sistemas</li>
+            <li><strong>Universidad:</strong> Universidad del Cauca</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>Expectativas Profesionales</h3>
+          <p>
+            Como futuro profesional en Ingeniería de Sistemas, aspiro a desarrollar soluciones tecnológicas 
+            que generen un impacto positivo en la sociedad. Mi objetivo es especializarme en desarrollo de 
+            software, inteligencia artificial y gestión de proyectos, contribuyendo al avance tecnológico 
+            y al mejoramiento de procesos empresariales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Estudios -->
+  <section id="estudios" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Trayectoria Educativa</h2>
+      <div class="table-container">
+        <table class="education-table">
+          <thead>
+            <tr>
+              <th>Nivel</th>
+              <th>Institución</th>
+              <th>Años</th>
+              <th>Ubicación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Universidad</td>
+              <td>Universidad del Cauca</td>
+              <td>2021-2025</td>
+              <td>Popayán, Colombia</td>
+            </tr>
+            <tr>
+              <td>Secundaria</td>
+              <td>[Nombre de tu colegio]</td>
+              <td>2015-2020</td>
+              <td>[Ciudad, País]</td>
+            </tr>
+            <tr>
+              <td>Primaria</td>
+              <td>[Nombre de tu escuela]</td>
+              <td>2009-2014</td>
+              <td>[Ciudad, País]</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Pasatiempos -->
+  <section id="pasatiempos" class="section">
+    <div class="container">
+      <h2 class="section-title">Mis Pasatiempos</h2>
+      <div class="hobbies-grid">
+        <!-- Pasatiempo 1 -->
+        <div class="hobby-card">
+          <img src="assets/images/hobby1.jpg" alt="Pasatiempo 1" class="hobby-image">
+          <div class="hobby-content">
+            <h3>Programación</h3>
+            <p>
+              Dedico tiempo libre a desarrollar proyectos personales y aprender nuevas tecnologías. 
+              Me gusta porque me permite crear soluciones innovadoras y estar siempre actualizado 
+              con las últimas tendencias tecnológicas.
+            </p>
+          </div>
+        </div>
+        <!-- Pasatiempo 2 -->
+        <div class="hobby-card">
+          <img src="assets/images/hobby2.jpg" alt="Pasatiempo 2" class="hobby-image">
+          <div class="hobby-content">
+            <h3>Lectura</h3>
+            <p>
+              Leo libros de tecnología, ciencia ficción y desarrollo personal. Me gusta porque 
+              amplía mi perspectiva y me mantiene informado sobre diferentes temas que enriquecen 
+              mi conocimiento.
+            </p>
+          </div>
+        </div>
+        <!-- Pasatiempo 3 -->
+        <div class="hobby-card">
+          <img src="assets/images/hobby3.jpg" alt="Pasatiempo 3" class="hobby-image">
+          <div class="hobby-content">
+            <h3>Deportes</h3>
+            <p>
+              Practico fútbol y natación regularmente. Me gusta porque me ayuda a mantener un 
+              equilibrio entre la vida académica y personal, además de mejorar mi salud física 
+              y mental.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Mis Proyectos</h2>
+      <div class="projects-grid">
+        <!-- Proyecto 1 -->
+        <div class="project-card">
+          <h3>Sistema de Gestión Escolar</h3>
+          <p>
+            Desarrollé un sistema web para la gestión de estudiantes, profesores y calificaciones 
+            de una institución educativa.
+          </p>
+          <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+          <a href="#" class="project-link">Ver Proyecto</a>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="project-card">
+          <h3>Aplicación Móvil de Tareas</h3>
+          <p>
+            Creé una aplicación móvil para la gestión de tareas diarias con recordatorios y 
+            categorización.
+          </p>
+          <p><strong>Tecnologías:</strong> React Native, Firebase, JavaScript</p>
+          <a href="#" class="project-link">Ver Proyecto</a>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="project-card">
+          <h3>Sitio Web E-commerce</h3>
+          <p>
+            Desarrollé una tienda online completa con carrito de compras, pagos y gestión de 
+            inventario.
+          </p>
+          <p><strong>Tecnologías:</strong> React, Node.js, MongoDB, Stripe</p>
+          <a href="#" class="project-link">Ver Proyecto</a>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="project-card">
+          <h3>API REST para Biblioteca</h3>
+          <p>
+            Implementé una API REST para la gestión de libros, préstamos y usuarios de una 
+            biblioteca.
+          </p>
+          <p><strong>Tecnologías:</strong> Python, Django, PostgreSQL, JWT</p>
+          <a href="#" class="project-link">Ver Proyecto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2 class="section-title">Contáctame</h2>
+      <div class="contact-container">
+        <form id="formularioContacto" class="contact-form" onsubmit="return validarFormulario()">
+          <!-- Nombre -->
+          <div class="form-group">
+            <label for="nombre" class="form-label">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre completo">
+            <div class="error-message" id="errorNombre"></div>
+          </div>
+          
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email" class="form-label">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com">
+            <div class="error-message" id="errorEmail"></div>
+          </div>
+          
+          <!-- Teléfono -->
+          <div class="form-group">
+            <label for="telefono" class="form-label">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="+57 300 123 4567">
+            <div class="error-message" id="errorTelefono"></div>
+          </div>
+          
+          <!-- Motivo de contacto -->
+          <div class="form-group">
+            <label for="motivo" class="form-label">Motivo de Contacto:</label>
+            <select id="motivo" name="motivo" class="form-select">
+              <option value="" disabled selected>Selecciona un motivo</option>
+              <option value="consulta">Consulta General</option>
+              <option value="proyecto">Propuesta de Proyecto</option>
+              <option value="trabajo">Oportunidad Laboral</option>
+              <option value="colaboracion">Colaboración</option>
+              <option value="otro">Otro</option>
+            </select>
+            <div class="error-message" id="errorMotivo"></div>
+          </div>
+          
+          <!-- Mensaje -->
+          <div class="form-group">
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" class="form-textarea" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+            <div class="error-message" id="errorMensaje"></div>
+          </div>
+          
+          <!-- Acepta términos -->
+          <div class="form-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="aceptaTerminos" name="aceptaTerminos" class="form-checkbox">
+              <span class="checkbox-text">Acepto los términos y condiciones</span>
+            </label>
+            <div class="error-message" id="errorTerminos"></div>
+          </div>
+          
+          <!-- Preferencia de contacto -->
+          <div class="form-group">
+            <label class="form-label">Preferencia de Contacto:</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" id="preferenciaEmail" name="preferenciaContacto" value="email" class="form-radio">
+                <span class="radio-text">Correo Electrónico</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" id="preferenciaTelefono" name="preferenciaContacto" value="telefono" class="form-radio">
+                <span class="radio-text">Teléfono</span>
+              </label>
+            </div>
+            <div class="error-message" id="errorPreferencia"></div>
+          </div>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+          </div>
+        </form>
+      </div>
+      
+      <!-- Lista de contactos guardados -->
+      <div class="contacts-section">
+        <h3>Contactos Guardados</h3>
+        <div class="contacts-actions">
+          <button type="button" class="btn btn-success" onclick="listarContactos()">Ver Contactos</button>
+          <button type="button" class="btn btn-danger" onclick="borrarTodo()">Borrar Todos</button>
+        </div>
+        <div id="listaContactos" class="contacts-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        </div>
+        <div class="footer-right">
+          <p>Desarrollado con ❤️ usando HTML, CSS y JavaScript</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/contacto/domain/Contacto.js"></script>
+  <script src="js/contacto/repository/ContactRepository.js"></script>
+  <script src="js/contacto/facade/ContactFacade.js"></script>
+</body>
+</html>
