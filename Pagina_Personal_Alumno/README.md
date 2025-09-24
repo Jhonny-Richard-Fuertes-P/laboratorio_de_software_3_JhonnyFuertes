@@ -204,7 +204,7 @@ El formulario incluye:
 
 ## 👨‍💻 Autor
 
-**Nombre**: [Tu Nombre]  
+**Nombre**: Jhonny Richard Fuertes Patiño  
 **Universidad**: Universidad del Cauca  
 **Programa**: Ingeniería de Sistemas  
 **Año**: 2024
@@ -216,4 +216,5 @@ Este proyecto es parte de un trabajo académico y está destinado únicamente pa
 ---
 
 **Desarrollado con ❤️ usando HTML, CSS y JavaScript**
+
 
